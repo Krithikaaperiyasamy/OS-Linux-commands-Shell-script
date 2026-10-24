@@ -398,6 +398,7 @@ seq 10 | sed '2,9c hello'
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+<img width="990" height="85" alt="Screenshot 2026-10-23 234959" src="https://github.com/user-attachments/assets/081f27da-ef81-4551-a0ad-6ee501c95076" />
 
 <img width="916" height="150" alt="Screenshot 2026-10-23 235003" src="https://github.com/user-attachments/assets/494892eb-fe66-4a01-adec-0396f9f50ac2" />
 
@@ -433,8 +434,7 @@ uniq file22
 ## OUTPUT
 
 
-<img width="805" height="157" alt="Screenshot 2026-10-23 235017" src="https://github.com/user-attachments/assets/58e8ae24-787f-4760-8c89-ff8a685e2767" />
-
+<img width="678" height="160" alt="image" src="https://github.com/user-attachments/assets/20e3d2aa-428f-4895-99e4-b7fde23a47f5" />
 
 #Using tr command
 
@@ -459,15 +459,15 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="895" height="102" alt="Screenshot 2026-10-23 235032" src="https://github.com/user-attachments/assets/e5e2a6fb-2828-466d-814b-8d7f4187f662" />
 
-<img width="856" height="95" alt="Screenshot 2026-10-23 235028" src="https://github.com/user-attachments/assets/3bbe3b9a-0638-4584-bfff-b967aabded67" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
 
-<img width="895" height="102" alt="Screenshot 2026-10-23 235032" src="https://github.com/user-attachments/assets/e5e2a6fb-2828-466d-814b-8d7f4187f662" />
+<img width="917" height="112" alt="image" src="https://github.com/user-attachments/assets/ba22fc85-f523-4434-aa18-f81f0532275d" />
 
 
 #Backup commands
@@ -488,20 +488,21 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+<img width="1297" height="476" alt="Screenshot 2026-10-23 235100" src="https://github.com/user-attachments/assets/1f92d696-b351-471c-856a-c2e1f96da26c" />
 
-<img width="983" height="497" alt="Screenshot 2026-10-23 235053" src="https://github.com/user-attachments/assets/d9e739fc-ff66-473e-9f09-ed453f83c590" />
+gzip backup.tar
 
 tar -xvf backup.tar
 ## OUTPUT
-
-<img width="1297" height="476" alt="Screenshot 2026-10-23 235100" src="https://github.com/user-attachments/assets/1f92d696-b351-471c-856a-c2e1f96da26c" />
+ <img width="1062" height="482" alt="Screenshot 2026-10-23 235106" src="https://github.com/user-attachments/assets/33697cfb-8af5-4245-9a33-3147daad0987" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
 
- <img width="1062" height="482" alt="Screenshot 2026-10-23 235106" src="https://github.com/user-attachments/assets/33697cfb-8af5-4245-9a33-3147daad0987" />
+<img width="1096" height="207" alt="Screenshot 2026-10-23 235121" src="https://github.com/user-attachments/assets/d130f5ca-483b-4693-a8cf-a58c9bbddc2c" />
+
 
 gunzip backup.tar.gz
 ## OUTPUT
@@ -532,6 +533,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
+<img width="978" height="228" alt="Screenshot 2026-10-23 235132" src="https://github.com/user-attachments/assets/b4ed229c-0f9d-428e-a301-cff461a1a86b" />
 
 <img width="1095" height="332" alt="Screenshot 2026-10-23 235139" src="https://github.com/user-attachments/assets/3e8702cc-40b9-404b-9835-e8c5678328fb" />
 
@@ -572,17 +574,22 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+<img width="1095" height="332" alt="Screenshot 2026-10-23 235139" src="https://github.com/user-attachments/assets/3e8702cc-40b9-404b-9835-e8c5678328fb" />
 
  <img width="645" height="57" alt="Screenshot 2026-10-23 235143" src="https://github.com/user-attachments/assets/67e22305-fefc-4f71-bcd0-a7963ffeabf4" />
 
 ls file1
 ## OUTPUT
-
+ <img width="645" height="57" alt="Screenshot 2026-10-23 235143" src="https://github.com/user-attachments/assets/67e22305-fefc-4f71-bcd0-a7963ffeabf4" />
+ 
 <img width="758" height="47" alt="Screenshot 2026-10-23 235146" src="https://github.com/user-attachments/assets/7d0c1fba-5f01-45c9-b727-6582cda2305d" />
 
 echo $?
 
-## OUTPUT <img width="718" height="93" alt="Screenshot 2026-10-23 235150" src="https://github.com/user-attachments/assets/e70909db-4ded-473f-9915-60ecf18bae1e" />
+## OUTPUT 
+<img width="758" height="47" alt="Screenshot 2026-10-23 235146" src="https://github.com/user-attachments/assets/7d0c1fba-5f01-45c9-b727-6582cda2305d" />
+
+<img width="718" height="93" alt="Screenshot 2026-10-23 235150" src="https://github.com/user-attachments/assets/e70909db-4ded-473f-9915-60ecf18bae1e" />
 
 ./one
 bash: ./one: Permission denied
@@ -590,12 +597,15 @@ bash: ./one: Permission denied
 echo $?
 ## OUTPUT 
 
+<img width="758" height="47" alt="Screenshot 2026-10-23 235146" src="https://github.com/user-attachments/assets/7d0c1fba-5f01-45c9-b727-6582cda2305d" />
+
  <img width="798" height="83" alt="Screenshot 2026-10-23 235156" src="https://github.com/user-attachments/assets/6aff9dad-6b32-40a4-a252-d64d11aa6b3c" />
 
 abcd
  
 echo $?
  ## OUTPUT
+<img width="718" height="93" alt="Screenshot 2026-10-23 235150" src="https://github.com/user-attachments/assets/e70909db-4ded-473f-9915-60ecf18bae1e" />
 
 <img width="762" height="42" alt="Screenshot 2026-10-23 235202" src="https://github.com/user-attachments/assets/576ba3ac-515f-474a-9e0a-c7d6cf161c71" />
 
@@ -631,6 +641,8 @@ fi
 ```
 ##OUTPUT
 
+ <img width="798" height="83" alt="Screenshot 2026-10-23 235156" src="https://github.com/user-attachments/assets/6aff9dad-6b32-40a4-a252-d64d11aa6b3c" />
+
 
 <img width="895" height="503" alt="Screenshot 2026-10-23 235213" src="https://github.com/user-attachments/assets/7f1bd3a6-2bb1-4484-897d-ef0d2fa14ec1" />
 
@@ -639,6 +651,8 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
+ <img width="798" height="83" alt="Screenshot 2026-10-23 235156" src="https://github.com/user-attachments/assets/6aff9dad-6b32-40a4-a252-d64d11aa6b3c" />
 
 <img width="867" height="105" alt="Screenshot 2026-10-23 235223" src="https://github.com/user-attachments/assets/115bb905-43d0-4f8b-86c1-db4863152d04" />
 
@@ -668,6 +682,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="762" height="42" alt="Screenshot 2026-10-23 235202" src="https://github.com/user-attachments/assets/576ba3ac-515f-474a-9e0a-c7d6cf161c71" />
 
 <img width="1035" height="105" alt="Screenshot 2026-10-23 235228" src="https://github.com/user-attachments/assets/71ec0d23-0f71-48a4-b24c-5321809ea4f7" />
 
@@ -716,7 +731,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+<img width="867" height="105" alt="Screenshot 2026-10-23 235223" src="https://github.com/user-attachments/assets/115bb905-43d0-4f8b-86c1-db4863152d04" />
 
 <img width="991" height="87" alt="Screenshot 2026-10-23 235232" src="https://github.com/user-attachments/assets/02306647-3cbe-4d52-9323-33073299101b" />
 
@@ -814,6 +829,8 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ##OUTPUT
 
+<img width="867" height="105" alt="Screenshot 2026-10-23 235223" src="https://github.com/user-attachments/assets/115bb905-43d0-4f8b-86c1-db4863152d04" />
+
 <img width="858" height="73" alt="Screenshot 2026-10-23 235255" src="https://github.com/user-attachments/assets/373c80b2-a6a3-49ce-ad9b-3eae4b12166f" />
 
 # looking for a possible value using elif
@@ -843,6 +860,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="858" height="73" alt="Screenshot 2026-10-23 235255" src="https://github.com/user-attachments/assets/373c80b2-a6a3-49ce-ad9b-3eae4b12166f" />
 
 <img width="813" height="141" alt="Screenshot 2026-10-24 001735" src="https://github.com/user-attachments/assets/5a83a2cd-2db5-41fd-9aae-88be681eab27" />
 
