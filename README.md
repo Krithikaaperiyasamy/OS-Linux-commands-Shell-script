@@ -360,34 +360,37 @@ seq 10
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+<img width="915" height="88" alt="image" src="https://github.com/user-attachments/assets/9ead8f7f-cfd2-45d5-bf05-79a5e4f0a6f4" />
 
-<img width="950" height="117" alt="Screenshot 2026-10-23 234936" src="https://github.com/user-attachments/assets/fb032c4b-f66a-494e-ab38-5ab49d6658b8" />
+
 
 <img width="845" height="112" alt="Screenshot 2026-10-23 234941" src="https://github.com/user-attachments/assets/b3ae5345-12ea-4c4c-a55b-5f05a32a15f8" />
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+<img width="950" height="117" alt="Screenshot 2026-10-23 234936" src="https://github.com/user-attachments/assets/fb032c4b-f66a-494e-ab38-5ab49d6658b8" />
 
-<img width="845" height="112" alt="Screenshot 2026-10-23 234941" src="https://github.com/user-attachments/assets/b3ae5345-12ea-4c4c-a55b-5f05a32a15f8" />
 
 <img width="900" height="97" alt="Screenshot 2026-10-23 234946" src="https://github.com/user-attachments/assets/1f00f10c-a1ce-42cf-96d2-280c57a1a064" />
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+<img width="845" height="112" alt="Screenshot 2026-10-23 234941" src="https://github.com/user-attachments/assets/b3ae5345-12ea-4c4c-a55b-5f05a32a15f8" />
 
-<img width="900" height="97" alt="Screenshot 2026-10-23 234946" src="https://github.com/user-attachments/assets/1f00f10c-a1ce-42cf-96d2-280c57a1a064" />
 
 <img width="1015" height="90" alt="Screenshot 2026-10-23 234951" src="https://github.com/user-attachments/assets/6df99abe-a5dc-4bf5-a00c-58552a5af329" />
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-<img width="1015" height="90" alt="Screenshot 2026-10-23 234951" src="https://github.com/user-attachments/assets/6df99abe-a5dc-4bf5-a00c-58552a5af329" />
+<img width="900" height="97" alt="Screenshot 2026-10-23 234946" src="https://github.com/user-attachments/assets/1f00f10c-a1ce-42cf-96d2-280c57a1a064" />
+
 
 <img width="1172" height="92" alt="Screenshot 2026-10-23 234955" src="https://github.com/user-attachments/assets/81c715ef-7cc8-41a2-b156-7d623faefd2b" />
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="1015" height="90" alt="Screenshot 2026-10-23 234951" src="https://github.com/user-attachments/assets/6df99abe-a5dc-4bf5-a00c-58552a5af329" />
 
 <img width="990" height="85" alt="Screenshot 2026-10-23 234959" src="https://github.com/user-attachments/assets/081f27da-ef81-4551-a0ad-6ee501c95076" />
 
